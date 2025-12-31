@@ -1,0 +1,19 @@
+pve 설치 가이드
+1. pve 설치 - OK 
+2. 미러서버 설정 - https://http.krfoss.org/ + https://svrforum.com/os/138940 # subscription 해제 방법
+3. local, local-lvm 합치기 - https://svrforum.com/os/289851
+4. 내부 네트워크 구축(Simple Zone) - https://svrforum.com/svr/1988206 + 공유기의 라우팅 테이블 설정 // 구축 안하면 0.xx 대역 사용함. 더러워짐. 라우팅 테이블 설정 안하면 외부에서 접근 불가.
+5-a. OMV + CasaOS 설치 : https://svrforum.com/casaos/1623871 # 활용 가이드
+5-1 디스크 패스스루 : https://svrforum.com/os/138963
+5-2. : SMB 설정 : https://postiveemblem.tistory.com/112
+5-b. xpenology 설치 : 
+6. 리버스 프록시란? : https://www.cloudflare.com/ko-kr/learning/cdn/glossary/reverse-proxy/
+6-a : 
+6-b Caddy 설명 + 역방향 Caddy : https://svrforum.com/svr/884683  +  https://svrforum.com/docker/723739
+
+
+gluetun + qbittorrent
+
+OMV : https://gall.dcinside.com/mgallery/board/view/?id=minipc&no=84456&exception_mode=recommend&search_head=30&page=1
+NPM duckdns ERR : https://pypi.org/project/certbot-dns-duckdns/
+DUCKDNS 토큰65a1df38-858c-4bfc-8593-3c6ec4eecbdb
